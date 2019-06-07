@@ -1,7 +1,8 @@
 # Fisheye
-Fisheye lens algorithm using python and pygame
+### Fisheye lens algorithm using python and pygame
 
-example:  
+#### example:  
+
 ![alt text](https://github.com/yoyoberenguer/Fisheye/blob/master/example.PNG)
 
 ![alt text](https://github.com/yoyoberenguer/Fisheye/blob/master/lake-wallpapers.jpg)
