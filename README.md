@@ -13,7 +13,7 @@
 ```
 Compatible with 24 - 32bit format image.
 The final image will be RGB type without per-pixel informations
-
+BENCHMARK 5ms processing time for a 1920x1080 pixels 24 bit depth
 
 import numpy
 cimport cython
