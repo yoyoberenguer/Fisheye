@@ -15,6 +15,16 @@ Compatible with 24 - 32bit format image.
 The final image will be RGB type without per-pixel informations
 
 
+import numpy
+cimport cython
+from cython.parallel cimport prange
+cimport numpy as np
+import random
+import math
+from libc.math cimport sin, sqrt, cos, atan2, pi, round, floor, fmax, fmin, pi, tan, exp
+from libc.stdio cimport printf
+
+
 @cython.boundscheck(False)
 @cython.wraparound(False)
 @cython.nonecheck(False)
