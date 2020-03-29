@@ -56,4 +56,4 @@ pygame.display.flip()
 ------------------------------------------
 ```
 
-![alt text](https://github.com/yoyoberenguer/Fisheye/blob/master/fisheye32.jpg)
+![alt text](https://github.com/yoyoberenguer/Fisheye/blob/master/fishey32.PNG)
