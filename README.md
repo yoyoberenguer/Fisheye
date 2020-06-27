@@ -43,7 +43,7 @@ and a C-compiler are correctly install on your system.
 Run the python file FISH_EYE.py for a demonstration.
 
 32-bit Fish eye lens image can be obtain the following way in python 
-------------------------------------------
+# ------------------------------------------
 import pygame
 from FISHEYE import fish_eye24, fish_eye32
 screen = pygame.display.set_mode((800, 600))
@@ -53,7 +53,7 @@ fisheye_surface = fish_eye32(surface32)
 screen.blit(fisheye_surface, (0, 0))
 pygame.display.flip()
 
-------------------------------------------
+# ------------------------------------------
 ```
 
 ![alt text](https://github.com/yoyoberenguer/Fisheye/blob/master/fishey32.PNG)
