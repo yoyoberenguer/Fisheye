@@ -43,6 +43,9 @@ and a C-compiler are correctly install on your system.
 Run the python file FISH_EYE.py for a demonstration.
 
 32-bit Fish eye lens image can be obtain the following way in python 
+```
+
+```python
 # ------------------------------------------
 import pygame
 from FISHEYE import fish_eye24, fish_eye32
