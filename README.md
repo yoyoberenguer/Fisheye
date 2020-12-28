@@ -49,10 +49,12 @@ Run the python file FISH_EYE.py for a demonstration.
 # ------------------------------------------
 import pygame
 from FISHEYE import fish_eye24, fish_eye32
+
 screen = pygame.display.set_mode((800, 600))
 surface32 = pygame.image.load("EMARALD.jpg").convert_alpha()
 surface32 = pygame.transform.smoothscale(surface32, (800, 600))
 fisheye_surface = fish_eye32(surface32)
+
 screen.blit(fisheye_surface, (0, 0))
 pygame.display.flip()
 
